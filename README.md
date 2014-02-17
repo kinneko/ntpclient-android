@@ -10,14 +10,17 @@ Original:
 
 # Building / Installing
 
-* You can import AOSP Manifest.xml.
+* You can import AOSP Manifest.
 
 or
 
+* mm build.
+
+
     $ cd [your AOSP/mydroid/]external
     $ git clone https://github.com/kinneko/ntpclient-android.git
-
-
+    
+    $ cd ntpclient-android
     $ export ARCH=arm
     $ export CROSS_COMPILE="../../prebuilt/linux-x86/toolchain/arm-eabi-[your gcc version]/bin/arm-eabi-"
     $ export TOP="../../"
