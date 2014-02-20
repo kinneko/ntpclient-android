@@ -8,6 +8,11 @@ Original:
 * forked from wlach/ntpclient-android: https://github.com/wlach/ntpclient-android
 * ntpclient: http://doolittle.icarus.com/ntpclient/
 
+This fork:
+* remove unuse files.
+* add Android.mk file for full and mm build.
+* add GPL2 LISENCE file.
+
 # Building / Installing
 
 * You can import AOSP Manifest or mm build.
