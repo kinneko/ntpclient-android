@@ -30,5 +30,18 @@ $ mm
 
 # Running
 
-* Please call this program as service from init.rc.
+* adb shell command line as root user
+
+```
+# date
+Fri Jan  2 09:02:59 JST 1970
+
+# ntpclient -c 1 -h pool.ntp.org -s
+25568 00505.385  107348.0     80.2  1392804224801225.0  42846.7         0
+
+# date
+Thu Feb 20 19:12:12 JST 2014
+```
+
+* Call ntpclient as service from init.rc.
 
