@@ -18,10 +18,13 @@ LOCAL_SRC_FILES := \
 	adjtimex_android.c \
 	ntpclient.c \
 	phaselock.c
-LOCAL_MODULE := ntpclient
+
 LOCAL_LDLIBS:=-lrt
 
+LOCAL_MODULE := ntpclient
 LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_PATH := $(TARGET_OUT)/xbin
+LOCAL_MODULE_CLASS := EXECUTABLE
 
 include $(BUILD_EXECUTABLE)
 
